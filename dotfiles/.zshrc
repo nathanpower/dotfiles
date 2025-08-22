@@ -127,3 +127,5 @@ function sqwip {
   git commit -m "wip"
   git push origin "$(git symbolic-ref --short HEAD)" -f
 }
+
+source /root/.sh_functions_wf
